@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coding-Kitchen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- For adjusting Carousel height -->
+    <style>
+      #carouselExampleCaptions .carousel-item img {
+        object-fit: cover;
+        object-position: center;
+        height: 50vh;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body class="bg-black">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Coding-Kitchen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#navbar"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-services">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-price">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images Used/pic1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome To Coder-Kitchen</h5>
+            <p>We will Help you in every Technical Field</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images Used/pic2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>New Technology</h5>
+            <p>Will cover every concept from scratch</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images Used/pic4.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Great Teachers team</h5>
+            <p>Doubts sessions will be held on every Sunday</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="our-services">
+      <h1 class="text-light text-center pt-4">Our Services</h1>
+    </section>
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Images Used/pic3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Programming</h5>
+              <p class="card-text">
+                Learn Any coding language with us. We will ensure you that we
+                will tech you with basics and will touch the advance topics.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images Used/pic6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Interview Preparation</h5>
+              <p class="card-text">
+                Prepare any coding interview with us. WE will provide you sample
+                questions and daily mock interview. Crack your Interview.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images Used/pic5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Artificial Intelligence</h5>
+              <p class="card-text">
+                Learn the latest concepts of AI with us.We will tell you how AI
+                works and how can you use AI for your Projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Images Used/pic7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning</h5>
+              <p class="card-text">
+                Lets dive in the world of Machine Learning , where we will teach
+                you ML from basic to advance level with python.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="our-price">
+      <div class="container border border-danger-subtle mt-5 mb-3">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-white">Pricing</h1>
+          <p class="fs-5 text-primary">
+            Sign Up with our classs at very decent cost. Early Sign ups will get
+            10% off in every Course.
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $0<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary"
+                >
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $15<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary"
+                >
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary"
+                >
+                  Join us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact-us">
+      <div class="container border border-primary">
+        <h1 class="text-light text-center pt-4">Contact-Us</h1>
+        <form class="p-5">
+          <div class="row g-3 my-3">
+            <div class="col">
+              <label class="text-light">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="col">
+              <label class="text-light">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last name"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-light"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Email Address"
+            />
+            <div id="emailHelp" class="form-text text-light">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-light"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label text-light" for="exampleCheck1"
+              >Save Password</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section id="myFooter">
+      <div class="container border border-danger-subtle mt-5 mb-2 pt-3">
+        <span class="text-light text-center">
+          <pre>THANKYOU!! FOR VISITING OUR WEBSITE</pre>
+        </span>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
